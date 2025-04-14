@@ -357,6 +357,64 @@ p{
     z-index: 99;
 }
 /* Testimonial CSS */
+.testimonial{
+    padding: 5rem 0 8rem;
+}
+.testimonial .testimonial-wrapper{
+    box-shadow: 0 0 0.563rem 0 rgb(0 0 0/5%);
+    background: var(--bg-white);
+    margin: auto;
+    padding: 1rem 5rem;
+    border: 0.063rem var(--bg-light-white);
+    border-radius: 0.625rem;
+}
+.testimonial .testimonial-wrapper img{
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1.25rem auto;    
+    object-fit: cover;
+    background-color: var(--bg-white);
+    border: 0.-63rem solid var(--bg-light-white);
+}
+.testimonial .testimonial-wrapper span{
+    color: var(--text-gray);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    display: block;
+}
+.testimonial .testimonial-wrapper p{
+    color: var(--text-gray);
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.testimonial .carousel-indicators [data-bs-target]{
+    background-color: var(--bg-danger);
+    width: 2.5rem;
+    height: 0.313rem;
+}
+.testimonial .carousel-control-next-icon,
+.testimonial .carousel-control-prev-icon{
+    background: transparent;
+}
+.testimonial .carousel-indicators{
+    bottom: -3rem;
+}
+.testimonial .slider-icon{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-danger);
+}
+.testimonial .carousel-control-prev{
+    left: -8.75rem;
+}
+.testimonial .carousel-control-next{
+    right: -8.75rem;
+}
+
+
 
 
 /* Contact CSS */
